@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     public static String HAS_PHONE_NUMBER = ContactsContract.Contacts.HAS_PHONE_NUMBER;
     public static String PHONE_NUMBER = ContactsContract.CommonDataKinds.Phone.NUMBER;
     public static Uri PHONE_CONTENT_URI = ContactsContract.CommonDataKinds.Phone.CONTENT_URI;
-    public static String PHONE_CONTACT_ID = ContactsContract.CommonDataKinds.Phone.CONTACT_ID;
+//    public static String PHONE_CONTACT_ID = ContactsContract.CommonDataKinds.Phone.CONTACT_ID;
     public static String STARRED_CONTACT = ContactsContract.Contacts.STARRED;
     public String CONTACT_ID = ContactsContract.Contacts._ID;
     String[] projection = new String[]{CONTACT_ID, DISPLAY_NAME, HAS_PHONE_NUMBER, STARRED_CONTACT, DISPLAY_PHOTO};
